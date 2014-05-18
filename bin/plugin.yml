@@ -1,0 +1,11 @@
+main: org.icannt.grover.locker.Main
+author: grover
+version: 0.3
+name: icLock
+commands:
+    key:
+      description: "Command to create keys to lock blocks with"
+      usage: "/key create <your unique key name>"
+    Lock:
+      description:  "Command to create keys to lock blocks with"
+      usage: "/lock create <your unique key name>"
